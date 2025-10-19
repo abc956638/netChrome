@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"golang.org/abc956638/net/publicsuffix"
+	"github.com/abc956638/netChrome/publicsuffix"
 )
 
 // This example demonstrates looking up several domains' eTLDs (effective Top

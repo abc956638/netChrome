@@ -8,8 +8,8 @@ import (
 	"net"
 	"testing"
 
-	"golang.org/abc956638/net/bpf"
-	"golang.org/abc956638/net/ipv4"
+	"github.com/abc956638/netChrome/bpf"
+	"github.com/abc956638/netChrome/ipv4"
 )
 
 func TestVMLoadAbsoluteOffsetOutOfBounds(t *testing.T) {

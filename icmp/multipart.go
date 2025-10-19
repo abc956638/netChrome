@@ -4,7 +4,7 @@
 
 package icmp
 
-import "golang.org/abc956638/net/internal/iana"
+import "github.com/abc956638/netChrome/internal/iana"
 
 // multipartMessageBodyDataLen takes b as an original datagram and
 // exts as extensions, and returns a required length for message body

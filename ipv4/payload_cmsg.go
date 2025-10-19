@@ -9,7 +9,7 @@ package ipv4
 import (
 	"net"
 
-	"golang.org/abc956638/net/internal/socket"
+	"github.com/abc956638/netChrome/internal/socket"
 )
 
 // ReadFrom reads a payload of the received IPv4 datagram, from the

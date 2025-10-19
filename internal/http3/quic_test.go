@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/abc956638/net/internal/gate"
-	"golang.org/abc956638/net/internal/testcert"
-	"golang.org/abc956638/net/quic"
+	"github.com/abc956638/netChrome/internal/gate"
+	"github.com/abc956638/netChrome/internal/testcert"
+	"github.com/abc956638/netChrome/quic"
 )
 
 // newLocalQUICEndpoint returns a QUIC Endpoint listening on localhost.

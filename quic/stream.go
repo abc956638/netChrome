@@ -11,7 +11,7 @@ import (
 	"io"
 	"math"
 
-	"golang.org/abc956638/net/internal/quic/quicwire"
+	"github.com/abc956638/netChrome/internal/quic/quicwire"
 )
 
 // A Stream is an ordered byte stream.

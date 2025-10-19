@@ -11,7 +11,7 @@ import (
 	"io"
 	"sync"
 
-	"golang.org/abc956638/net/quic"
+	"github.com/abc956638/netChrome/quic"
 )
 
 type streamHandler interface {

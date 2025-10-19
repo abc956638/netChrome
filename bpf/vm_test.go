@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/abc956638/net/bpf"
+	"github.com/abc956638/netChrome/bpf"
 )
 
 var _ bpf.Instruction = unknown{}

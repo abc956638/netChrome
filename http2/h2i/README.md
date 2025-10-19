@@ -25,7 +25,7 @@ Later:
 ## Installation
 
 ```
-$ go install golang.org/abc956638/net/http2/h2i@latest
+$ go install github.com/abc956638/netChrome/http2/h2i@latest
 $ h2i <host>
 ```
 

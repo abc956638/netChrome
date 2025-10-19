@@ -4,7 +4,7 @@
 
 // Package socket provides a portable interface for socket system
 // calls.
-package socket // import "golang.org/abc956638/net/internal/socket"
+package socket // import "github.com/abc956638/netChrome/internal/socket"
 
 import (
 	"errors"

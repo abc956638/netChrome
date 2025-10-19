@@ -9,7 +9,7 @@ import (
 	"net/netip"
 	"time"
 
-	"golang.org/abc956638/net/internal/quic/quicwire"
+	"github.com/abc956638/netChrome/internal/quic/quicwire"
 )
 
 // transportParameters transferred in the quic_transport_parameters TLS extension.

@@ -7,7 +7,7 @@ package idna_test
 import (
 	"fmt"
 
-	"golang.org/abc956638/net/idna"
+	"github.com/abc956638/netChrome/idna"
 )
 
 func ExampleProfile() {

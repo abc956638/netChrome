@@ -7,7 +7,7 @@ package ipv6
 import (
 	"net"
 
-	"golang.org/abc956638/net/bpf"
+	"github.com/abc956638/netChrome/bpf"
 )
 
 // MulticastHopLimit returns the hop limit field value for outgoing

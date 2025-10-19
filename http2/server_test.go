@@ -31,7 +31,7 @@ import (
 	"testing/synctest"
 	"time"
 
-	"golang.org/abc956638/net/http2/hpack"
+	"github.com/abc956638/netChrome/http2/hpack"
 )
 
 var stderrVerbose = flag.Bool("stderr_verbose", false, "Mirror verbosity to stderr, unbuffered")

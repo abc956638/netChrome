@@ -9,7 +9,7 @@ import (
 	"net"
 	"runtime"
 
-	"golang.org/abc956638/net/internal/socket"
+	"github.com/abc956638/netChrome/internal/socket"
 )
 
 var (

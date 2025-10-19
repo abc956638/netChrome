@@ -6,7 +6,7 @@
 
 package ipv6
 
-import "golang.org/abc956638/net/internal/socket"
+import "github.com/abc956638/netChrome/internal/socket"
 
 func setControlMessage(c *socket.Conn, opt *rawOpt, cf ControlFlags, on bool) error {
 	opt.Lock()

@@ -234,6 +234,6 @@
 // MLDv1 and starts to listen to multicast traffic.
 // In the fallback case, ExcludeSourceSpecificGroup and
 // IncludeSourceSpecificGroup may return an error.
-package ipv6 // import "golang.org/abc956638/net/ipv6"
+package ipv6 // import "github.com/abc956638/netChrome/ipv6"
 
 // BUG(mikio): This package is not implemented on JS, NaCl and Plan 9.

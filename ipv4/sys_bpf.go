@@ -9,8 +9,8 @@ package ipv4
 import (
 	"unsafe"
 
-	"golang.org/abc956638/net/bpf"
-	"golang.org/abc956638/net/internal/socket"
+	"github.com/abc956638/netChrome/bpf"
+	"github.com/abc956638/netChrome/internal/socket"
 	"golang.org/x/sys/unix"
 )
 

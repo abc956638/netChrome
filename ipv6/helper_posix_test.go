@@ -11,7 +11,7 @@ import (
 	"os"
 	"syscall"
 
-	"golang.org/abc956638/net/ipv6"
+	"github.com/abc956638/netChrome/ipv6"
 )
 
 func protocolNotSupported(err error) bool {

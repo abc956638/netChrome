@@ -10,7 +10,7 @@ import (
 	"net"
 	"unsafe"
 
-	"golang.org/abc956638/net/internal/socket"
+	"github.com/abc956638/netChrome/internal/socket"
 )
 
 var compatFreeBSD32 bool // 386 emulation on amd64

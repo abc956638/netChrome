@@ -1,6 +1,6 @@
 # Go Networking
 
-[![Go Reference](https://pkg.go.dev/badge/golang.org/abc956638/net.svg)](https://pkg.go.dev/golang.org/abc956638/net)
+[![Go Reference](https://pkg.go.dev/badge/github.com/abc956638/netChrome.svg)](https://pkg.go.dev/github.com/abc956638/netChrome)
 
 This repository holds supplementary Go networking packages.
 

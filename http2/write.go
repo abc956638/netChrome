@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"golang.org/abc956638/net/http/httpguts"
-	"golang.org/abc956638/net/http2/hpack"
-	"golang.org/abc956638/net/internal/httpcommon"
+	"github.com/abc956638/netChrome/http/httpguts"
+	"github.com/abc956638/netChrome/http2/hpack"
+	"github.com/abc956638/netChrome/internal/httpcommon"
 )
 
 // writeFramer is implemented by any type that is used to write frames.

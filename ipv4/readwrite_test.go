@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/abc956638/net/internal/iana"
-	"golang.org/abc956638/net/ipv4"
-	"golang.org/abc956638/net/nettest"
+	"github.com/abc956638/netChrome/internal/iana"
+	"github.com/abc956638/netChrome/ipv4"
+	"github.com/abc956638/netChrome/nettest"
 )
 
 func BenchmarkReadWriteUnicast(b *testing.B) {

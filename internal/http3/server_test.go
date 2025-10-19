@@ -11,8 +11,8 @@ import (
 	"testing"
 	"testing/synctest"
 
-	"golang.org/abc956638/net/internal/quic/quicwire"
-	"golang.org/abc956638/net/quic"
+	"github.com/abc956638/netChrome/internal/quic/quicwire"
+	"github.com/abc956638/netChrome/quic"
 )
 
 func TestServerReceivePushStream(t *testing.T) {

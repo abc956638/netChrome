@@ -60,7 +60,7 @@ The /debug/events HTTP endpoint organizes the event logs by family and
 by time since the last error.  The expanded view displays recent log
 entries and the log's call stack.
 */
-package trace // import "golang.org/abc956638/net/trace"
+package trace // import "github.com/abc956638/netChrome/trace"
 
 import (
 	"bytes"
@@ -79,7 +79,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/abc956638/net/internal/timeseries"
+	"github.com/abc956638/netChrome/internal/timeseries"
 )
 
 // DebugUseAfterFinish controls whether to debug uses of Trace values after finishing.
@@ -121,8 +121,8 @@ func init() {
 	_, pat := http.DefaultServeMux.Handler(&http.Request{URL: &url.URL{Path: debugRequestsPath}})
 	if pat == debugRequestsPath {
 		panic("/debug/requests is already registered. You may have two independent copies of " +
-			"golang.org/abc956638/net/trace in your binary, trying to maintain separate state. This may " +
-			"involve a vendored copy of golang.org/abc956638/net/trace.")
+			"github.com/abc956638/netChrome/trace in your binary, trying to maintain separate state. This may " +
+			"involve a vendored copy of github.com/abc956638/netChrome/trace.")
 	}
 
 	// TODO(jbd): Serve Traces from /debug/traces in the future?
@@ -311,7 +311,7 @@ func lookupBucket(fam string, b int) *traceBucket {
 
 type contextKeyT string
 
-var contextKey = contextKeyT("golang.org/abc956638/net/trace.Trace")
+var contextKey = contextKeyT("github.com/abc956638/netChrome/trace.Trace")
 
 // Trace represents an active request.
 type Trace interface {

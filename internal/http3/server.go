@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"sync"
 
-	"golang.org/abc956638/net/quic"
+	"github.com/abc956638/netChrome/quic"
 )
 
 // A Server is an HTTP/3 server.

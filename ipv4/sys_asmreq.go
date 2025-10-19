@@ -11,7 +11,7 @@ import (
 	"net"
 	"unsafe"
 
-	"golang.org/abc956638/net/internal/socket"
+	"github.com/abc956638/netChrome/internal/socket"
 )
 
 var errNoSuchInterface = errors.New("no such interface")

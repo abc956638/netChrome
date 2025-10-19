@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"golang.org/abc956638/net/internal/quic/quicwire"
+	"github.com/abc956638/netChrome/internal/quic/quicwire"
 )
 
 // packetType is a QUIC packet type.

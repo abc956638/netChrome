@@ -8,7 +8,7 @@ import (
 	"net"
 	"time"
 
-	"golang.org/abc956638/net/internal/socket"
+	"github.com/abc956638/netChrome/internal/socket"
 )
 
 // BUG(mikio): On Windows, the JoinSourceSpecificGroup,

@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/abc956638/net/internal/quic/quicwire"
-	"golang.org/abc956638/net/quic/qlog"
+	"github.com/abc956638/netChrome/internal/quic/quicwire"
+	"github.com/abc956638/netChrome/quic/qlog"
 )
 
 func TestParseLongHeaderPacket(t *testing.T) {

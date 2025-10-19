@@ -1,4 +1,4 @@
-module golang.org/abc956638/net
+module github.com/abc956638/netChrome
 
 go 1.24.0
 

@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"time"
 
-	"golang.org/abc956638/net/ipv4"
-	"golang.org/abc956638/net/ipv6"
+	"github.com/abc956638/netChrome/ipv4"
+	"github.com/abc956638/netChrome/ipv6"
 )
 
 var _ net.PacketConn = &PacketConn{}

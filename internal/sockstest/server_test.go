@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/abc956638/net/internal/socks"
+	"github.com/abc956638/netChrome/internal/socks"
 )
 
 func TestParseAuthRequest(t *testing.T) {

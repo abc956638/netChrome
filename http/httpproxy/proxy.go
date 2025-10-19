@@ -20,7 +20,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"golang.org/abc956638/net/idna"
+	"github.com/abc956638/netChrome/idna"
 )
 
 // Config holds configuration for HTTP proxy settings. See

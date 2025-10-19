@@ -14,7 +14,7 @@ import (
 	"testing"
 	"testing/synctest"
 
-	"golang.org/abc956638/net/quic"
+	"github.com/abc956638/netChrome/quic"
 )
 
 func TestRoundTripSimple(t *testing.T) {

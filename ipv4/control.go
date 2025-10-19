@@ -9,8 +9,8 @@ import (
 	"net"
 	"sync"
 
-	"golang.org/abc956638/net/internal/iana"
-	"golang.org/abc956638/net/internal/socket"
+	"github.com/abc956638/netChrome/internal/iana"
+	"github.com/abc956638/netChrome/internal/socket"
 )
 
 type rawOpt struct {

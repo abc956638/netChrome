@@ -16,7 +16,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/abc956638/net/http2"
+	"github.com/abc956638/netChrome/http2"
 )
 
 func ExampleNewHandler() {
