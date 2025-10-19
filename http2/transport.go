@@ -844,7 +844,7 @@ func (t *Transport) newClientConn(c net.Conn, singleUse bool) (*ClientConn, erro
 	if max := t.maxHeaderListSize(); max != 0 {
 		initialSettings = append(initialSettings, Setting{ID: SettingMaxHeaderListSize, Val: max})
 	}
-	if conf.MaxReadFrameSize != 0 {
+	if conf.MaxReadFrameSize != 0 && conf.MaxReadFrameSize != 16384 {
 		initialSettings = append(initialSettings, Setting{ID: SettingMaxFrameSize, Val: conf.MaxReadFrameSize})
 	}
 
