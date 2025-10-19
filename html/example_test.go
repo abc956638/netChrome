@@ -12,8 +12,8 @@ import (
 	"log"
 	"strings"
 
-	"golang.org/x/net/html"
-	"golang.org/x/net/html/atom"
+	"golang.org/abc956638/net/html"
+	"golang.org/abc956638/net/html/atom"
 )
 
 func ExampleParse() {

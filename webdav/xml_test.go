@@ -16,7 +16,7 @@ import (
 	"strings"
 	"testing"
 
-	ixml "golang.org/x/net/webdav/internal/xml"
+	ixml "golang.org/abc956638/net/webdav/internal/xml"
 )
 
 func TestReadLockInfo(t *testing.T) {

@@ -5,9 +5,9 @@
 package icmp
 
 import (
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/ipv4"
-	"golang.org/x/net/ipv6"
+	"golang.org/abc956638/net/internal/iana"
+	"golang.org/abc956638/net/ipv4"
+	"golang.org/abc956638/net/ipv6"
 )
 
 // A TimeExceeded represents an ICMP time exceeded message body.

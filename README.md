@@ -1,6 +1,6 @@
 # Go Networking
 
-[![Go Reference](https://pkg.go.dev/badge/golang.org/x/net.svg)](https://pkg.go.dev/golang.org/x/net)
+[![Go Reference](https://pkg.go.dev/badge/golang.org/abc956638/net.svg)](https://pkg.go.dev/golang.org/abc956638/net)
 
 This repository holds supplementary Go networking packages.
 

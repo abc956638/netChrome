@@ -10,7 +10,7 @@ import (
 	"os"
 	"syscall"
 
-	"golang.org/x/net/route"
+	"golang.org/abc956638/net/route"
 	"golang.org/x/sys/unix"
 )
 

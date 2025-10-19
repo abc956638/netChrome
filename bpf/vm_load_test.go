@@ -8,8 +8,8 @@ import (
 	"net"
 	"testing"
 
-	"golang.org/x/net/bpf"
-	"golang.org/x/net/ipv4"
+	"golang.org/abc956638/net/bpf"
+	"golang.org/abc956638/net/ipv4"
 )
 
 func TestVMLoadAbsoluteOffsetOutOfBounds(t *testing.T) {

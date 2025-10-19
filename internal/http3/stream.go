@@ -10,7 +10,7 @@ import (
 	"context"
 	"io"
 
-	"golang.org/x/net/quic"
+	"golang.org/abc956638/net/quic"
 )
 
 // A stream wraps a QUIC stream, providing methods to read/write various values.

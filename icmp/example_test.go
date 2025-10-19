@@ -10,8 +10,8 @@ import (
 	"os"
 	"runtime"
 
-	"golang.org/x/net/icmp"
-	"golang.org/x/net/ipv6"
+	"golang.org/abc956638/net/icmp"
+	"golang.org/abc956638/net/ipv6"
 )
 
 func ExamplePacketConn_nonPrivilegedPing() {

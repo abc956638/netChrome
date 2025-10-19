@@ -14,7 +14,7 @@ import (
 	"testing"
 	"testing/synctest"
 
-	"golang.org/x/net/quic"
+	"golang.org/abc956638/net/quic"
 )
 
 func TestRoundTripSimple(t *testing.T) {

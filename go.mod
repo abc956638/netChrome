@@ -1,4 +1,4 @@
-module golang.org/x/net
+module golang.org/abc956638/net
 
 go 1.24.0
 

@@ -32,10 +32,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/net/http/httpguts"
-	"golang.org/x/net/http2/hpack"
-	"golang.org/x/net/idna"
-	"golang.org/x/net/internal/httpcommon"
+	"golang.org/abc956638/net/http/httpguts"
+	"golang.org/abc956638/net/http2/hpack"
+	"golang.org/abc956638/net/idna"
+	"golang.org/abc956638/net/internal/httpcommon"
 )
 
 const (

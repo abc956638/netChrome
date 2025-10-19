@@ -7,7 +7,7 @@ package ipv4
 import (
 	"net"
 
-	"golang.org/x/net/internal/socket"
+	"golang.org/abc956638/net/internal/socket"
 )
 
 // BUG(mikio): On Windows, the ReadFrom and WriteTo methods of RawConn

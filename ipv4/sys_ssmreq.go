@@ -10,7 +10,7 @@ import (
 	"net"
 	"unsafe"
 
-	"golang.org/x/net/internal/socket"
+	"golang.org/abc956638/net/internal/socket"
 )
 
 func (so *sockOpt) setGroupReq(c *socket.Conn, ifi *net.Interface, grp net.IP) error {

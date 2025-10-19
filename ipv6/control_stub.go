@@ -6,7 +6,7 @@
 
 package ipv6
 
-import "golang.org/x/net/internal/socket"
+import "golang.org/abc956638/net/internal/socket"
 
 func setControlMessage(c *socket.Conn, opt *rawOpt, cf ControlFlags, on bool) error {
 	return errNotImplemented

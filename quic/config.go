@@ -10,7 +10,7 @@ import (
 	"math"
 	"time"
 
-	"golang.org/x/net/internal/quic/quicwire"
+	"golang.org/abc956638/net/internal/quic/quicwire"
 )
 
 // A Config structure configures a QUIC endpoint.

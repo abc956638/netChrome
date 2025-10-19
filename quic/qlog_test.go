@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/quic/qlog"
+	"golang.org/abc956638/net/quic/qlog"
 )
 
 func TestQLogHandshake(t *testing.T) {

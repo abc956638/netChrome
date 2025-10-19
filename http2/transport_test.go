@@ -38,7 +38,7 @@ import (
 	"testing/synctest"
 	"time"
 
-	"golang.org/x/net/http2/hpack"
+	"golang.org/abc956638/net/http2/hpack"
 )
 
 var (

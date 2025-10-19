@@ -10,7 +10,7 @@ import (
 	"errors"
 	"io"
 
-	"golang.org/x/net/http2/hpack"
+	"golang.org/abc956638/net/http2/hpack"
 )
 
 // QPACK (RFC 9204) header compression wire encoding.

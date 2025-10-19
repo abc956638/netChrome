@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/net/internal/quic/quicwire"
+	"golang.org/abc956638/net/internal/quic/quicwire"
 )
 
 func TestStreamWriteBlockedByOutputBuffer(t *testing.T) {

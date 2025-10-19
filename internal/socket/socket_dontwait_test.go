@@ -14,8 +14,8 @@ import (
 	"syscall"
 	"testing"
 
-	"golang.org/x/net/internal/socket"
-	"golang.org/x/net/nettest"
+	"golang.org/abc956638/net/internal/socket"
+	"golang.org/abc956638/net/nettest"
 )
 
 func TestUDPDontwait(t *testing.T) {

@@ -9,7 +9,7 @@ package http3
 import (
 	"crypto/tls"
 
-	"golang.org/x/net/quic"
+	"golang.org/abc956638/net/quic"
 )
 
 func initConfig(config *quic.Config) *quic.Config {

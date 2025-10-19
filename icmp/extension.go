@@ -7,8 +7,8 @@ package icmp
 import (
 	"encoding/binary"
 
-	"golang.org/x/net/ipv4"
-	"golang.org/x/net/ipv6"
+	"golang.org/abc956638/net/ipv4"
+	"golang.org/abc956638/net/ipv6"
 )
 
 // An Extension represents an ICMP extension.
