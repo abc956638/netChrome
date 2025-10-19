@@ -7,7 +7,7 @@ package bpf_test
 import (
 	"testing"
 
-	"github.com/abc956638/netChrome/bpf"
+	"github.com/abc956638/netchrome/bpf"
 )
 
 func TestVMRetA(t *testing.T) {

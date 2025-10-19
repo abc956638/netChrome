@@ -10,7 +10,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/abc956638/netChrome/quic"
+	"github.com/abc956638/netchrome/quic"
 )
 
 // A stream wraps a QUIC stream, providing methods to read/write various values.

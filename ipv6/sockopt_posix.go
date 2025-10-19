@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/abc956638/netChrome/bpf"
-	"github.com/abc956638/netChrome/internal/socket"
+	"github.com/abc956638/netchrome/bpf"
+	"github.com/abc956638/netchrome/internal/socket"
 )
 
 func (so *sockOpt) getMulticastInterface(c *socket.Conn) (*net.Interface, error) {

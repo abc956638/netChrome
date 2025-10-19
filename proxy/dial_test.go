@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abc956638/netChrome/internal/sockstest"
-	"github.com/abc956638/netChrome/nettest"
+	"github.com/abc956638/netchrome/internal/sockstest"
+	"github.com/abc956638/netchrome/nettest"
 )
 
 func TestDial(t *testing.T) {

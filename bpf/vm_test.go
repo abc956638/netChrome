@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/abc956638/netChrome/bpf"
+	"github.com/abc956638/netchrome/bpf"
 )
 
 var _ bpf.Instruction = unknown{}

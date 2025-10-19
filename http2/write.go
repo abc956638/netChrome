@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/abc956638/netChrome/http/httpguts"
-	"github.com/abc956638/netChrome/http2/hpack"
-	"github.com/abc956638/netChrome/internal/httpcommon"
+	"github.com/abc956638/netchrome/http/httpguts"
+	"github.com/abc956638/netchrome/http2/hpack"
+	"github.com/abc956638/netchrome/internal/httpcommon"
 )
 
 // writeFramer is implemented by any type that is used to write frames.

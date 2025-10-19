@@ -9,7 +9,7 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/abc956638/netChrome/internal/quic/quicwire"
+	"github.com/abc956638/netchrome/internal/quic/quicwire"
 )
 
 // transportParameters transferred in the quic_transport_parameters TLS extension.

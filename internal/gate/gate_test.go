@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abc956638/netChrome/internal/gate"
+	"github.com/abc956638/netchrome/internal/gate"
 )
 
 func TestGateLockAndUnlock(t *testing.T) {

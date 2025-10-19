@@ -14,7 +14,7 @@ import (
 	"testing"
 	"testing/synctest"
 
-	"github.com/abc956638/netChrome/quic"
+	"github.com/abc956638/netchrome/quic"
 )
 
 func TestRoundTripSimple(t *testing.T) {

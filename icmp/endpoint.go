@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/abc956638/netChrome/ipv4"
-	"github.com/abc956638/netChrome/ipv6"
+	"github.com/abc956638/netchrome/ipv4"
+	"github.com/abc956638/netchrome/ipv6"
 )
 
 var _ net.PacketConn = &PacketConn{}

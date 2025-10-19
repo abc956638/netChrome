@@ -14,7 +14,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/abc956638/netChrome/internal/timeseries"
+	"github.com/abc956638/netchrome/internal/timeseries"
 )
 
 const (

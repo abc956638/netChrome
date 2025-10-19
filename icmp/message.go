@@ -12,7 +12,7 @@
 // ICMP extensions for interface and next-hop identification are
 // defined in RFC 5837.
 // PROBE: A utility for probing interfaces is defined in RFC 8335.
-package icmp // import "github.com/abc956638/netChrome/icmp"
+package icmp // import "github.com/abc956638/netchrome/icmp"
 
 import (
 	"encoding/binary"
@@ -20,9 +20,9 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/abc956638/netChrome/internal/iana"
-	"github.com/abc956638/netChrome/ipv4"
-	"github.com/abc956638/netChrome/ipv6"
+	"github.com/abc956638/netchrome/internal/iana"
+	"github.com/abc956638/netchrome/ipv4"
+	"github.com/abc956638/netchrome/ipv6"
 )
 
 // BUG(mikio): This package is not implemented on JS, NaCl and Plan 9.

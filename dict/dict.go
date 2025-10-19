@@ -6,7 +6,7 @@
 // as defined in RFC 2229.
 //
 // The dict package is frozen and is not accepting new features.
-package dict // import "github.com/abc956638/netChrome/dict"
+package dict // import "github.com/abc956638/netchrome/dict"
 
 import (
 	"net/textproto"

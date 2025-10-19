@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/abc956638/netChrome/internal/socket"
-	"github.com/abc956638/netChrome/ipv4"
+	"github.com/abc956638/netchrome/internal/socket"
+	"github.com/abc956638/netchrome/ipv4"
 )
 
 func TestParseIPv4Header(t *testing.T) {

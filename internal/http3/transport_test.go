@@ -19,8 +19,8 @@ import (
 	"testing"
 	"testing/synctest"
 
-	"github.com/abc956638/netChrome/internal/quic/quicwire"
-	"github.com/abc956638/netChrome/quic"
+	"github.com/abc956638/netchrome/internal/quic/quicwire"
+	"github.com/abc956638/netchrome/quic"
 )
 
 func TestTransportServerCreatesBidirectionalStream(t *testing.T) {

@@ -7,7 +7,7 @@ package ipv4
 import (
 	"net"
 
-	"github.com/abc956638/netChrome/internal/socket"
+	"github.com/abc956638/netchrome/internal/socket"
 )
 
 // BUG(mikio): On Windows, the ControlMessage for ReadFrom and WriteTo

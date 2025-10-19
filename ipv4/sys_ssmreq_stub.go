@@ -9,7 +9,7 @@ package ipv4
 import (
 	"net"
 
-	"github.com/abc956638/netChrome/internal/socket"
+	"github.com/abc956638/netchrome/internal/socket"
 )
 
 func (so *sockOpt) setGroupReq(c *socket.Conn, ifi *net.Interface, grp net.IP) error {

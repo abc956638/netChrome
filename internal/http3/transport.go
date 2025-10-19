@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/abc956638/netChrome/quic"
+	"github.com/abc956638/netchrome/quic"
 )
 
 // A Transport is an HTTP/3 transport.

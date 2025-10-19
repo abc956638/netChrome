@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/abc956638/netChrome/internal/quic/quicwire"
+	"github.com/abc956638/netchrome/internal/quic/quicwire"
 )
 
 // packetType is a QUIC packet type.

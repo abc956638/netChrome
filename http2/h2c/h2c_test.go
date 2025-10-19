@@ -16,7 +16,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/abc956638/netChrome/http2"
+	"github.com/abc956638/netchrome/http2"
 )
 
 func ExampleNewHandler() {

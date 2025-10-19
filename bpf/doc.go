@@ -77,4 +77,4 @@ This packet filter captures a random 1% sample of traffic.
 		bpf.RetConstant{Val: 0},
 	})
 */
-package bpf // import "github.com/abc956638/netChrome/bpf"
+package bpf // import "github.com/abc956638/netchrome/bpf"

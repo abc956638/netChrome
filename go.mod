@@ -1,4 +1,4 @@
-module github.com/abc956638/netChrome
+module github.com/abc956638/netchrome
 
 go 1.24.0
 

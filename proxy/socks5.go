@@ -8,7 +8,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/abc956638/netChrome/internal/socks"
+	"github.com/abc956638/netchrome/internal/socks"
 )
 
 // SOCKS5 returns a Dialer that makes SOCKSv5 connections to the given

@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/abc956638/netChrome/quic"
+	"github.com/abc956638/netchrome/quic"
 )
 
 // A Server is an HTTP/3 server.

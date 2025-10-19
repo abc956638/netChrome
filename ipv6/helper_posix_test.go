@@ -11,7 +11,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/abc956638/netChrome/ipv6"
+	"github.com/abc956638/netchrome/ipv6"
 )
 
 func protocolNotSupported(err error) bool {

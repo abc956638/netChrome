@@ -5,7 +5,7 @@
 package html
 
 import (
-	"github.com/abc956638/netChrome/html/atom"
+	"github.com/abc956638/netchrome/html/atom"
 )
 
 // A NodeType is the type of a Node.

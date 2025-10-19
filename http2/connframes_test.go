@@ -15,7 +15,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/abc956638/netChrome/http2/hpack"
+	"github.com/abc956638/netchrome/http2/hpack"
 )
 
 type testConnFramer struct {

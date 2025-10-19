@@ -4,7 +4,7 @@
 
 package ipv6
 
-import "github.com/abc956638/netChrome/internal/socket"
+import "github.com/abc956638/netchrome/internal/socket"
 
 // Sticky socket options
 const (

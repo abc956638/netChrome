@@ -25,8 +25,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/abc956638/netChrome/quic"
-	"github.com/abc956638/netChrome/quic/qlog"
+	"github.com/abc956638/netchrome/quic"
+	"github.com/abc956638/netchrome/quic/qlog"
 )
 
 var (

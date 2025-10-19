@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abc956638/netChrome/internal/quic/quicwire"
-	"github.com/abc956638/netChrome/quic/qlog"
+	"github.com/abc956638/netchrome/internal/quic/quicwire"
+	"github.com/abc956638/netchrome/quic/qlog"
 )
 
 func TestParseLongHeaderPacket(t *testing.T) {

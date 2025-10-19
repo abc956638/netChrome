@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/abc956638/netChrome/websocket"
+	"github.com/abc956638/netchrome/websocket"
 )
 
 // This example demonstrates a trivial client.

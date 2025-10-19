@@ -12,9 +12,9 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/abc956638/netChrome/internal/iana"
-	"github.com/abc956638/netChrome/ipv4"
-	"github.com/abc956638/netChrome/ipv6"
+	"github.com/abc956638/netchrome/internal/iana"
+	"github.com/abc956638/netchrome/ipv4"
+	"github.com/abc956638/netchrome/ipv6"
 )
 
 const sysIP_STRIPHDR = 0x17 // for now only darwin supports this option

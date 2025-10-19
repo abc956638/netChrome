@@ -8,8 +8,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/abc956638/netChrome/bpf"
-	"github.com/abc956638/netChrome/ipv4"
+	"github.com/abc956638/netchrome/bpf"
+	"github.com/abc956638/netchrome/ipv4"
 )
 
 func TestVMLoadAbsoluteOffsetOutOfBounds(t *testing.T) {

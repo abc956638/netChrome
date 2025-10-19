@@ -20,7 +20,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/abc956638/netChrome/idna"
+	"github.com/abc956638/netchrome/idna"
 )
 
 // Config holds configuration for HTTP proxy settings. See

@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/abc956638/netChrome/internal/socks"
-	"github.com/abc956638/netChrome/internal/sockstest"
+	"github.com/abc956638/netchrome/internal/socks"
+	"github.com/abc956638/netchrome/internal/sockstest"
 )
 
 type proxyFromEnvTest struct {

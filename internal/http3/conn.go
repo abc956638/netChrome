@@ -11,7 +11,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/abc956638/netChrome/quic"
+	"github.com/abc956638/netchrome/quic"
 )
 
 type streamHandler interface {

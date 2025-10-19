@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/abc956638/netChrome/internal/socket"
+	"github.com/abc956638/netchrome/internal/socket"
 )
 
 type headerTest struct {

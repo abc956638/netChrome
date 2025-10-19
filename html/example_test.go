@@ -12,8 +12,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/abc956638/netChrome/html"
-	"github.com/abc956638/netChrome/html/atom"
+	"github.com/abc956638/netchrome/html"
+	"github.com/abc956638/netchrome/html/atom"
 )
 
 func ExampleParse() {

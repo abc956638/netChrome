@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/abc956638/netChrome/icmp"
-	"github.com/abc956638/netChrome/ipv4"
+	"github.com/abc956638/netchrome/icmp"
+	"github.com/abc956638/netchrome/ipv4"
 )
 
 func ExampleConn_markingTCP() {

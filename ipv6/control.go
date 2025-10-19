@@ -9,8 +9,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/abc956638/netChrome/internal/iana"
-	"github.com/abc956638/netChrome/internal/socket"
+	"github.com/abc956638/netchrome/internal/iana"
+	"github.com/abc956638/netchrome/internal/socket"
 )
 
 // Note that RFC 3542 obsoletes RFC 2292 but OS X Snow Leopard and the

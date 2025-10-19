@@ -7,7 +7,7 @@ package ipv6_test
 import (
 	"testing"
 
-	"github.com/abc956638/netChrome/ipv6"
+	"github.com/abc956638/netchrome/ipv6"
 )
 
 func TestControlMessageParseWithFuzz(t *testing.T) {

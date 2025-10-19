@@ -4,7 +4,7 @@
 
 // Package proxy provides support for a variety of protocols to proxy network
 // data.
-package proxy // import "github.com/abc956638/netChrome/proxy"
+package proxy // import "github.com/abc956638/netchrome/proxy"
 
 import (
 	"errors"

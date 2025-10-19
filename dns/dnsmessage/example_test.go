@@ -9,7 +9,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/abc956638/netChrome/dns/dnsmessage"
+	"github.com/abc956638/netchrome/dns/dnsmessage"
 )
 
 func ExampleParser() {

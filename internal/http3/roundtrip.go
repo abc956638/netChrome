@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/abc956638/netChrome/internal/httpcommon"
+	"github.com/abc956638/netchrome/internal/httpcommon"
 )
 
 type roundTripState struct {

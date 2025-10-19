@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/abc956638/netChrome/http/httpguts"
-	"github.com/abc956638/netChrome/http2/hpack"
+	"github.com/abc956638/netchrome/http/httpguts"
+	"github.com/abc956638/netchrome/http2/hpack"
 )
 
 var (

@@ -7,7 +7,7 @@ package ipv6
 import (
 	"net"
 
-	"github.com/abc956638/netChrome/bpf"
+	"github.com/abc956638/netchrome/bpf"
 )
 
 // MulticastHopLimit returns the hop limit field value for outgoing

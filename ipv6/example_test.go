@@ -11,8 +11,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/abc956638/netChrome/icmp"
-	"github.com/abc956638/netChrome/ipv6"
+	"github.com/abc956638/netchrome/icmp"
+	"github.com/abc956638/netchrome/ipv6"
 )
 
 func ExampleConn_markingTCP() {

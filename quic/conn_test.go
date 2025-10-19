@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abc956638/netChrome/quic/qlog"
+	"github.com/abc956638/netchrome/quic/qlog"
 )
 
 var (

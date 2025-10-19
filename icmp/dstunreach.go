@@ -5,9 +5,9 @@
 package icmp
 
 import (
-	"github.com/abc956638/netChrome/internal/iana"
-	"github.com/abc956638/netChrome/ipv4"
-	"github.com/abc956638/netChrome/ipv6"
+	"github.com/abc956638/netchrome/internal/iana"
+	"github.com/abc956638/netchrome/ipv4"
+	"github.com/abc956638/netchrome/ipv6"
 )
 
 // A DstUnreach represents an ICMP destination unreachable message

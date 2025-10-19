@@ -7,7 +7,7 @@ package quic
 import (
 	"encoding/binary"
 
-	"github.com/abc956638/netChrome/internal/quic/quicwire"
+	"github.com/abc956638/netchrome/internal/quic/quicwire"
 )
 
 // A packetWriter constructs QUIC datagrams.

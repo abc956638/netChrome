@@ -16,7 +16,7 @@ import (
 	"strings"
 	"testing"
 
-	ixml "github.com/abc956638/netChrome/webdav/internal/xml"
+	ixml "github.com/abc956638/netchrome/webdav/internal/xml"
 )
 
 func TestReadLockInfo(t *testing.T) {

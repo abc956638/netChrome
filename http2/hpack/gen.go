@@ -13,7 +13,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/abc956638/netChrome/http2/hpack"
+	"github.com/abc956638/netchrome/http2/hpack"
 )
 
 // http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-07#appendix-B

@@ -7,7 +7,7 @@ package icmp
 import (
 	"net"
 
-	"github.com/abc956638/netChrome/internal/iana"
+	"github.com/abc956638/netchrome/internal/iana"
 )
 
 const ipv6PseudoHeaderLen = 2*net.IPv6len + 8

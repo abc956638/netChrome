@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/abc956638/netChrome/websocket"
+	"github.com/abc956638/netchrome/websocket"
 )
 
 // Echo the data received on the WebSocket.

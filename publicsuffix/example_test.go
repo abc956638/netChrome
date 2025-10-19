@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/abc956638/netChrome/publicsuffix"
+	"github.com/abc956638/netchrome/publicsuffix"
 )
 
 // This example demonstrates looking up several domains' eTLDs (effective Top

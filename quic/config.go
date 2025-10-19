@@ -10,7 +10,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/abc956638/netChrome/internal/quic/quicwire"
+	"github.com/abc956638/netchrome/internal/quic/quicwire"
 )
 
 // A Config structure configures a QUIC endpoint.

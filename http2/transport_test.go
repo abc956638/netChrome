@@ -38,7 +38,7 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/abc956638/netChrome/http2/hpack"
+	"github.com/abc956638/netchrome/http2/hpack"
 )
 
 var (

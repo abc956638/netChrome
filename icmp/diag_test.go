@@ -15,11 +15,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abc956638/netChrome/icmp"
-	"github.com/abc956638/netChrome/internal/iana"
-	"github.com/abc956638/netChrome/ipv4"
-	"github.com/abc956638/netChrome/ipv6"
-	"github.com/abc956638/netChrome/nettest"
+	"github.com/abc956638/netchrome/icmp"
+	"github.com/abc956638/netchrome/internal/iana"
+	"github.com/abc956638/netchrome/ipv4"
+	"github.com/abc956638/netchrome/ipv6"
+	"github.com/abc956638/netchrome/nettest"
 )
 
 var testDiag = flag.Bool("diag", false, "whether to test ICMP message exchange with external network")

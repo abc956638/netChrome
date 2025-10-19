@@ -11,8 +11,8 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/abc956638/netChrome/internal/iana"
-	"github.com/abc956638/netChrome/internal/socket"
+	"github.com/abc956638/netchrome/internal/iana"
+	"github.com/abc956638/netchrome/internal/socket"
 
 	"golang.org/x/sys/unix"
 )

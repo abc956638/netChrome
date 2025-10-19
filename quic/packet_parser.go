@@ -4,7 +4,7 @@
 
 package quic
 
-import "github.com/abc956638/netChrome/internal/quic/quicwire"
+import "github.com/abc956638/netchrome/internal/quic/quicwire"
 
 // parseLongHeaderPacket parses a QUIC long header packet.
 //

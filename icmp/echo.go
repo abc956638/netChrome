@@ -7,9 +7,9 @@ package icmp
 import (
 	"encoding/binary"
 
-	"github.com/abc956638/netChrome/internal/iana"
-	"github.com/abc956638/netChrome/ipv4"
-	"github.com/abc956638/netChrome/ipv6"
+	"github.com/abc956638/netchrome/internal/iana"
+	"github.com/abc956638/netchrome/ipv4"
+	"github.com/abc956638/netchrome/ipv6"
 )
 
 // An Echo represents an ICMP echo request or reply message body.

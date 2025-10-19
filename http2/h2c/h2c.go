@@ -5,7 +5,7 @@
 // Package h2c implements the unencrypted "h2c" form of HTTP/2.
 //
 // The h2c protocol is the non-TLS version of HTTP/2 which is not available from
-// net/http or github.com/abc956638/netChrome/http2.
+// net/http or github.com/abc956638/netchrome/http2.
 package h2c
 
 import (
@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/abc956638/netChrome/http/httpguts"
-	"github.com/abc956638/netChrome/http2"
+	"github.com/abc956638/netchrome/http/httpguts"
+	"github.com/abc956638/netchrome/http2"
 )
 
 var (

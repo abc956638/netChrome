@@ -10,8 +10,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/abc956638/netChrome/internal/socks"
-	"github.com/abc956638/netChrome/nettest"
+	"github.com/abc956638/netchrome/internal/socks"
+	"github.com/abc956638/netchrome/nettest"
 )
 
 // An AuthRequest represents an authentication request.

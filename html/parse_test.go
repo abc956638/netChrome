@@ -17,7 +17,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/abc956638/netChrome/html/atom"
+	"github.com/abc956638/netchrome/html/atom"
 )
 
 type testAttrs struct {

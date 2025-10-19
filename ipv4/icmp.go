@@ -4,7 +4,7 @@
 
 package ipv4
 
-import "github.com/abc956638/netChrome/internal/iana"
+import "github.com/abc956638/netchrome/internal/iana"
 
 // An ICMPType represents a type of ICMP message.
 type ICMPType int

@@ -18,8 +18,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/abc956638/netChrome/internal/socket"
-	"github.com/abc956638/netChrome/nettest"
+	"github.com/abc956638/netchrome/internal/socket"
+	"github.com/abc956638/netchrome/nettest"
 )
 
 func TestSocket(t *testing.T) {
@@ -371,7 +371,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/abc956638/netChrome/ipv4"
+	"github.com/abc956638/netchrome/ipv4"
 )
 
 var g byte
@@ -406,7 +406,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/abc956638/netChrome/ipv4"
+	"github.com/abc956638/netchrome/ipv4"
 )
 
 func main() {

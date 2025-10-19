@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abc956638/netChrome/bpf"
-	"github.com/abc956638/netChrome/ipv6"
-	"github.com/abc956638/netChrome/nettest"
+	"github.com/abc956638/netchrome/bpf"
+	"github.com/abc956638/netchrome/ipv6"
+	"github.com/abc956638/netchrome/nettest"
 )
 
 func TestBPF(t *testing.T) {

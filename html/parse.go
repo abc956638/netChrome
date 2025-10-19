@@ -10,7 +10,7 @@ import (
 	"io"
 	"strings"
 
-	a "github.com/abc956638/netChrome/html/atom"
+	a "github.com/abc956638/netchrome/html/atom"
 )
 
 // A parser implements the HTML5 parsing algorithm:

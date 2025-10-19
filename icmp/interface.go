@@ -9,7 +9,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/abc956638/netChrome/internal/iana"
+	"github.com/abc956638/netchrome/internal/iana"
 )
 
 const (

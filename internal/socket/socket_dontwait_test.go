@@ -14,8 +14,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/abc956638/netChrome/internal/socket"
-	"github.com/abc956638/netChrome/nettest"
+	"github.com/abc956638/netchrome/internal/socket"
+	"github.com/abc956638/netchrome/nettest"
 )
 
 func TestUDPDontwait(t *testing.T) {

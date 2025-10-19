@@ -7,8 +7,8 @@ package icmp
 import (
 	"encoding/binary"
 
-	"github.com/abc956638/netChrome/internal/iana"
-	"github.com/abc956638/netChrome/ipv4"
+	"github.com/abc956638/netchrome/internal/iana"
+	"github.com/abc956638/netchrome/ipv4"
 )
 
 // A ParamProb represents an ICMP parameter problem message body.

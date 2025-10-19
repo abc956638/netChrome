@@ -4,7 +4,7 @@
 
 package icmp
 
-import "github.com/abc956638/netChrome/internal/iana"
+import "github.com/abc956638/netchrome/internal/iana"
 
 // multipartMessageBodyDataLen takes b as an original datagram and
 // exts as extensions, and returns a required length for message body

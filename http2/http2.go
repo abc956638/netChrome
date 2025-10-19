@@ -11,7 +11,7 @@
 // requires Go 1.6 or later)
 //
 // See https://http2.github.io/ for more information on HTTP/2.
-package http2 // import "github.com/abc956638/netChrome/http2"
+package http2 // import "github.com/abc956638/netchrome/http2"
 
 import (
 	"bufio"
@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/abc956638/netChrome/http/httpguts"
+	"github.com/abc956638/netchrome/http/httpguts"
 )
 
 var (

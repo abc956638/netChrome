@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package xsrftoken provides methods for generating and validating secure XSRF tokens.
-package xsrftoken // import "github.com/abc956638/netChrome/xsrftoken"
+package xsrftoken // import "github.com/abc956638/netchrome/xsrftoken"
 
 import (
 	"crypto/hmac"

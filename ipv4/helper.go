@@ -9,7 +9,7 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/abc956638/netChrome/internal/socket"
+	"github.com/abc956638/netchrome/internal/socket"
 )
 
 var (

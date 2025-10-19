@@ -10,7 +10,7 @@
 //
 //   - [github.com/gorilla/websocket]
 //   - [github.com/coder/websocket]
-package websocket // import "github.com/abc956638/netChrome/websocket"
+package websocket // import "github.com/abc956638/netchrome/websocket"
 
 import (
 	"bufio"

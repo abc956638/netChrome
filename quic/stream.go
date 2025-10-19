@@ -11,7 +11,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/abc956638/netChrome/internal/quic/quicwire"
+	"github.com/abc956638/netchrome/internal/quic/quicwire"
 )
 
 // A Stream is an ordered byte stream.

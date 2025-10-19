@@ -7,7 +7,7 @@
 package http3
 
 import (
-	"github.com/abc956638/netChrome/internal/quic/quicwire"
+	"github.com/abc956638/netchrome/internal/quic/quicwire"
 )
 
 const (

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package webdav provides a WebDAV server implementation.
-package webdav // import "github.com/abc956638/netChrome/webdav"
+package webdav // import "github.com/abc956638/netchrome/webdav"
 
 import (
 	"errors"

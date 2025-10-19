@@ -12,7 +12,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/abc956638/netChrome/internal/quic/quicwire"
+	"github.com/abc956638/netchrome/internal/quic/quicwire"
 )
 
 func TestStreamReadVarint(t *testing.T) {

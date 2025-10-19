@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/abc956638/netChrome/ipv6"
-	"github.com/abc956638/netChrome/nettest"
+	"github.com/abc956638/netchrome/ipv6"
+	"github.com/abc956638/netchrome/nettest"
 )
 
 var udpMultipleGroupListenerTests = []net.Addr{

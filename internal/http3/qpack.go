@@ -10,7 +10,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/abc956638/netChrome/http2/hpack"
+	"github.com/abc956638/netchrome/http2/hpack"
 )
 
 // QPACK (RFC 9204) header compression wire encoding.

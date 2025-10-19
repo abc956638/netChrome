@@ -7,7 +7,7 @@ package idna_test
 import (
 	"fmt"
 
-	"github.com/abc956638/netChrome/idna"
+	"github.com/abc956638/netchrome/idna"
 )
 
 func ExampleProfile() {

@@ -9,7 +9,7 @@ package http3
 import (
 	"crypto/tls"
 
-	"github.com/abc956638/netChrome/quic"
+	"github.com/abc956638/netchrome/quic"
 )
 
 func initConfig(config *quic.Config) *quic.Config {

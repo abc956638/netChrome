@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/abc956638/netChrome/ipv4"
-	"github.com/abc956638/netChrome/nettest"
+	"github.com/abc956638/netchrome/ipv4"
+	"github.com/abc956638/netchrome/nettest"
 )
 
 var icmpStringTests = []struct {
