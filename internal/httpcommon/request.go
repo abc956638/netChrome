@@ -57,6 +57,15 @@ type EncodeHeadersResult struct {
 	HasTrailers bool
 }
 
+func _arrayIndexOf(arr []string, target string) int {
+	for i, v := range arr {
+		if v == target {
+			return i
+		}
+	}
+	return -1
+}
+
 // EncodeHeaders constructs request headers common to HTTP/2 and HTTP/3.
 // It validates a request and calls headerf with each pseudo-header and header
 // for the request.
@@ -153,11 +162,32 @@ func EncodeHeaders(ctx context.Context, param EncodeHeadersParam, headerf func(n
 			f("trailer", trailers)
 		}
 
-		var didUA bool
-		for k, vv := range req.Header {
-			if asciiEqualFold(k, "host") || asciiEqualFold(k, "content-length") {
+		//MODIFED 提取键并排序
+		orderedKeys := make([]string, 0, len(req.Header))
+		for k := range req.Header {
+			orderedKeys = append(orderedKeys, k)
+		}
+		var chromeHeaderOrder = strings.Split("content-length,sec-ch-ua-platform,user-agent,sec-ch-ua,content-type,sec-ch-ua-mobile,accept,origin,sec-fetch-site,sec-fetch-mode,sec-fetch-dest,referer,accept-encoding,accept-language,cookie,priority", ",")
+		sort.Slice(orderedKeys, func(i, j int) bool {
+			return _arrayIndexOf(chromeHeaderOrder, orderedKeys[i]) < _arrayIndexOf(chromeHeaderOrder, orderedKeys[j])
+		})
+		var hasContentLength, didUA bool
+		for _, k := range orderedKeys {
+			vv := req.Header[k]
+
+			if asciiEqualFold(k, "content-length") {
+				if shouldSendReqContentLength(req.Method, req.ActualContentLength) {
+					f("content-length", strconv.FormatInt(req.ActualContentLength, 10))
+					hasContentLength = true
+				}
+				continue
+			} else if asciiEqualFold(k, "accept-encoding") {
+				if param.AddGzipHeader && _arrayIndexOf(vv, "gzip") == -1 {
+					f("accept-encoding", "gzip")
+					continue
+				}
+			} else if asciiEqualFold(k, "host") {
 				// Host is :authority, already sent.
-				// Content-Length is automatic, set below.
 				continue
 			} else if asciiEqualFold(k, "connection") ||
 				asciiEqualFold(k, "proxy-connection") ||
@@ -209,16 +239,15 @@ func EncodeHeaders(ctx context.Context, param EncodeHeadersParam, headerf func(n
 				// :protocol pseudo-header was already sent above.
 				continue
 			}
-
 			for _, v := range vv {
 				f(k, v)
 			}
 		}
-		if shouldSendReqContentLength(req.Method, req.ActualContentLength) {
-			f("content-length", strconv.FormatInt(req.ActualContentLength, 10))
-		}
-		if param.AddGzipHeader {
+		if param.AddGzipHeader && _arrayIndexOf(orderedKeys, "gzip") == -1 {
 			f("accept-encoding", "gzip")
+		}
+		if shouldSendReqContentLength(req.Method, req.ActualContentLength) && !hasContentLength {
+			f("content-length", strconv.FormatInt(req.ActualContentLength, 10))
 		}
 		if !didUA {
 			f("user-agent", param.DefaultUserAgent)
