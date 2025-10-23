@@ -167,7 +167,7 @@ func EncodeHeaders(ctx context.Context, param EncodeHeadersParam, headerf func(n
 		for k := range req.Header {
 			orderedKeys = append(orderedKeys, k)
 		}
-		var chromeHeaderOrder = strings.Split("content-length,sec-ch-ua-platform,user-agent,sec-ch-ua,content-type,sec-ch-ua-mobile,accept,origin,sec-fetch-site,sec-fetch-mode,sec-fetch-dest,referer,accept-encoding,accept-language,cookie,priority", ",")
+		var chromeHeaderOrder = []string{"Content-Length", "Sec-Ch-Ua", "Sec-Ch-Ua-Mobile", "Sec-Ch-Ua-Platform", "Upgrade-Insecure-Requests", "User-Agent", "Content-Type", "Accept", "Origin", "Sec-Fetch-Site", "Sec-Fetch-Mode", "Sec-Fetch-Dest", "Referer", "Accept-Encoding", "Accept-Language", "Cookie", "Priority"}
 		sort.Slice(orderedKeys, func(i, j int) bool {
 			return _arrayIndexOf(chromeHeaderOrder, orderedKeys[i]) < _arrayIndexOf(chromeHeaderOrder, orderedKeys[j])
 		})
